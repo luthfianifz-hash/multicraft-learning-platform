@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>MultiCraft</title>
+
+    <!-- Icon Library -->
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <!-- Navbar Start-->
+    <nav class="navbar">
+      <a href="#" class="logo-navbar">Multi<span>Craft</span></a>
+      <div class="navbar-nav">
+        <a href="#">Beranda</a>
+        <a href="#about">Materi</a>
+        <a href="#course">Proyek</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search">
+          <i data-feather="search"></i>
+        </a>
+        <a id="hamburger-menu" href="#"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- Header End -->
+
+    <!-- Main Start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Kelola Pembelajaran Film, Podcast, dan Animasi dengan Lebih Mudah</h1>
+        <p>MultiCraft merupakan platform edukasi yang membantu mahasiswa mempelajari produksi film, podcast, dan animasi, sekaligus mengelola proyek serta jadwal produksi secara lebih efektif.</p>
+        <a href="" class="cta">Mulai</a>
+      </main>
+
+      <div class="hero-image">
+        <img src="/assets/hero.png" alt="" />
+      </div>
+    </section>
+    <!-- Main End -->
+
+    <!-- About Section Start -->
+    <section class="about" id="about">
+      <h2>Tentang MultiCraft</h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="/assets/about.png" alt="" />
+        </div>
+        <div class="content">
+          <h3>Belajar, Berkarya, dan Mengelola Proyekmu</h3>
+          <p>
+                MultiCraft merupakan platform edukasi yang dirancang untuk membantu mahasiswa mempelajari dan mengembangkan keterampilan di bidang film, podcast, dan animasi. Platform ini menyediakan materi pembelajaran serta membantu pengguna mengelola proyek multimedia dan jadwal produksi dalam satu tempat.
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Course Section Start -->
+    <section class="course" id="course">
+      <h2>Materi  yang tersedia</h2>
+      <p>Pelajari dasar hingga proses produksi film, podcast, dan animasi melalui materi yang terstruktur dan mudah dipahami.</p>
+
+      <div class="row" id="course-list"></div>
+    </section>
+    <!-- Course Section End -->
+
+    <!-- Contact Section Start -->
+     <section class="projects" id="projects">
+    <h2>Proyek Multimedia</h2>
+    <p>
+        Kelola dan kembangkan berbagai proyek kreatif dalam bidang film,
+        podcast, dan animasi melalui MultimediaHub.
+    </p>
+
+    <div class="project-container">
+        <div class="project-card">
+            <span>🎬 FILM</span>
+            <h3>Produksi Film Pendek</h3>
+            <p>
+                Mengembangkan ide cerita menjadi film pendek melalui tahap
+                pra-produksi, produksi, dan pascaproduksi.
+            </p>
+            <small>Status: Sedang Dikerjakan</small>
+        </div>
+
+        <div class="project-card">
+            <span>🎙️ PODCAST</span>
+            <h3>Podcast Kreatif</h3>
+            <p>
+                Merancang konsep, merekam, dan mengelola konten podcast
+                edukatif dan kreatif.
+            </p>
+            <small>Status: Dalam Perencanaan</small>
+        </div>
+
+        <div class="project-card">
+            <span>🎨 ANIMASI</span>
+            <h3>Animasi 2D</h3>
+            <p>
+                Membuat animasi 2D mulai dari konsep karakter, storyboard,
+                hingga proses animasi.
+            </p>
+            <small>Status: Sedang Dikerjakan</small>
+        </div>
+    </div>
+</section>
+    <section id="contact" class="contact">
+      <h2>Hubungi  Kami</h2>
+      <p>Punya pertanyaan atau ingin mengetahui lebih lanjut tentang MultimediaHub? Silakan hubungi kami melalui formulir berikut.</p>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.585720336962!2d107.7222779402832!3d-6.940013493088898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68c323777ca3a1%3A0x355eff6734ed9167!2sUniversitas%20Pendidikan%20Indonesia%20-%20Kampus%20UPI%20Cibiru!5e0!3m2!1sen!2sid!4v1787874858376!5m2!1sen!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="strict-origin-when-cross-origin"
+          class="map"
+        ></iframe>
+
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"> </i>
+            <input type="text" placeholder="nama" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"> </i>
+            <input type="text" placeholder="email" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"> </i>
+            <input type="number" placeholder="nomor hp" />
+          </div>
+
+          <button type="submit" class="btn">Kirim pesan</button>
+        </form>
+      </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Section Start-->
+    <footer id="footer">
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+      </div>
+      <div class="links">
+        <a href="#home">Beranda</a>
+        <a href="#about">Tentang</a>
+        <a href="#course">kelas</a>
+        <a href="#contact">Kontak</a>
+      </div>
+      <div>
+        <p>Created by <a href="">Mochamad Irfan Hidayat. | &copy;2026</a></p>
+      </div>
+    </footer>
+    <!-- Footer Section End-->
+
+    <script src="script.js"></script>
+  </body>
+</html>
